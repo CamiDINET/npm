@@ -1,9 +1,9 @@
-const myObject = [
-    myName= "Camille",
-    myCampus= "Wild Code School"
-];
+ let myObject = {
+    myName : "Camille",
+    myCampus : "Wild Code School"
+};
 
 module.exports = {
-    myName: myName,
-    myCampus: myCampus,
+    myName: myObject.myName,
+    myCampus: myObject.myCampus,
 };
